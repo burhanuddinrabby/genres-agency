@@ -1,11 +1,13 @@
-import Banner from "./Main/Banner";
+import BannerComponent from "./Main/Banner";
+import OurServices from "./Main/OurServices";
 import Navbar from "./Shared/Navbar";
 
 export default function Home() {
   return (
     <div>
       <Navbar></Navbar>
-      <Banner></Banner>
+      <BannerComponent></BannerComponent>
+      <OurServices></OurServices>
     </div>
   )
 }

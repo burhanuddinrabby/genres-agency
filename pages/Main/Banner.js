@@ -18,25 +18,29 @@ const success = [
         about: "Client Satisfaction"
     }
 ]
-const Banner = () => {
+const BannerComponent = () => {
     return (
-        <div className="hero mb-5 lg:px-44 px-4">
+        <div className="mb-3 lg:px-48 px-4">
             <div className="flex items-center flex-col lg:flex-row-reverse justify-between">
-                <Image src={bannerImg} className="rounded-lg min-w-lg shadow-2xl" alt='' />
+                <div className="lg:max-w-3xl">
+                    <Image src={bannerImg} alt='banner' />
+                </div>
                 <div className='text-[#bcb4b4] '>
-                    <h1 className="font-bold text-xs text-primary">A Trusted Agency Service </h1>
-                    <h1 className="text-6xl my-2 tracking-wide text-black font-bold data-text-sm" dataText="Starts Here...">Let's Start <br /> Something <br /> Big Together</h1>
-                    <p className="text-sm mt-5 mb-2">We are developing top level digital services with our <br />
+                    <h1 className="text-xs text-primary">A Trusted Agency Service </h1>
+                    <h1 className="text-6xl my-3 tracking-wide text-black font-bold data-text-sm" dataText="Starts Here...">Let&apos;s Start</h1>
+                    <h1 className="text-6xl my-4 tracking-wide text-black font-bold data-text-sm" dataText="Starts Here...">Something</h1>
+                    <h1 className="text-6xl my-3 tracking-wide text-black font-bold data-text-sm" dataText="Starts Here...">Big Together</h1>
+                    <p className="text-sm my-5">We are developing top level digital services with our <br />
                         best experienced team, just get started with us</p>
                     <button className='btn rounded-none px-12 bg-gradient-to-r from-primary to-secondary text-[#fff] border-none'>Book now</button>
-                    <div className="grid">
+                    <div className="grid grid-cols-3 gap-9 mt-9 font-sans">
                         {
-                            success.map((item, index) => {
+                            success.map((item) => {
                                 return (
-                                    <div className="grid-col-3" key={index}>
+                                    <div className="bg-white lg:p-7 p-5 rounded-md" key={item._id}>
                                         <div className="text-center">
-                                            <h1 className="text-2xl font-bold">{item.status}</h1>
-                                            <p className="text-xs">{item.about}</p>
+                                            <h1 className="text-4xl  text-primary font-bold">{item.status}</h1>
+                                            <p className="text-xs font-semibold text-black">{item.about}</p>
                                         </div>
                                     </div>
                                 )
@@ -45,7 +49,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-        </div>                                                                                                                                       
-    )                                                                                          
-};                     
-export default Banner;
+        </div>
+    )
+}
+export default BannerComponent;
