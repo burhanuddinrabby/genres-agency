@@ -25,11 +25,11 @@ const BannerComponent = () => {
                 <div className="lg:max-w-3xl">
                     <Image src={bannerImg} alt='banner' />
                 </div>
-                <div className='text-[#bcb4b4] '>
+                <div className='text-[#8E8E8E] '>
                     <h1 className="text-xs text-primary">A Trusted Agency Service </h1>
-                    <h1 className="text-6xl my-3 tracking-wide text-black font-bold data-text-sm" dataText="Starts Here...">Let&apos;s Start</h1>
-                    <h1 className="text-6xl my-4 tracking-wide text-black font-bold data-text-sm" dataText="Starts Here...">Something</h1>
-                    <h1 className="text-6xl my-3 tracking-wide text-black font-bold data-text-sm" dataText="Starts Here...">Big Together</h1>
+                    <h1 className="text-6xl my-3 text-black font-bold data-text-sm" dataText="Starts Here...">Let&apos;s Start</h1>
+                    <h1 className="text-6xl my-4 text-black font-bold data-text-sm" dataText="Starts Here...">Something</h1>
+                    <h1 className="text-6xl my-3 text-black font-bold data-text-sm" dataText="Starts Here...">Big Together</h1>
                     <p className="text-sm my-5">We are developing top level digital services with our <br />
                         best experienced team, just get started with us</p>
                     <button className='btn rounded-none px-12 bg-gradient-to-r from-primary to-secondary text-[#fff] border-none'>Book now</button>

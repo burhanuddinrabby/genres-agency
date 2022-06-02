@@ -1,5 +1,7 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import logo from '../../public/image/logo.png';
 
 const Navbar = () => {
     const menuItems = <>
@@ -21,7 +23,9 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <span className='btn btn-ghost normal-case text-2xl'>
-                    <Link href='/'>GenRes</Link>
+                    <Link href='/'>
+                        <Image src={logo} alt='logo' width={98} height={20} />
+                    </Link>
                 </span>
             </div>
             <div className="navbar-center hidden lg:flex justify-evenly">

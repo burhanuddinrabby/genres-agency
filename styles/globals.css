@@ -1,5 +1,18 @@
 @tailwind base;
 @tailwind components;
+
+.section-title {
+  @apply relative z-10;
+}
+
+.section-title h2 {
+  @apply text-primary text-[32px] font-bold uppercase;
+}
+
+.section-title h3 {
+  @apply absolute top-[-32px] left-0 right-0 -z-10 mx-auto text-[#EAEAEA] font-[800] leading-none uppercase;
+}
+
 @tailwind utilities;
 
 html,
