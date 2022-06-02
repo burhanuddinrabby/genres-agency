@@ -57,7 +57,11 @@ const OurServices = () => {
                 <SectionTitle>
                     Our Services
                 </SectionTitle>
-                <div className="lg:px-48 px-4">
+                <p className='w-96 mx-auto text-[#8e8e8e] mt-16 text-center'>
+                    We are developing top level digital srevices with our
+                    best expierenced team, just get started with us
+                </p>
+                <div className="lg:px-48 px-4 mt-24">
                     <div className="grid lg:grid-cols-3 grid-cols-1 gap-9 mt-9 font-sans">
                         {
                             services.map((service) => {
@@ -68,7 +72,7 @@ const OurServices = () => {
                                         </div>
                                         <div className="text-center">
                                             <h1 className="text-2xl mb-4 text-black font-bold">{service.name}</h1>
-                                            <p className="text-xs font-semibold text-[#8E8E8E] w-[82%] mb-12 text-center mx-auto">{service.description}</p>
+                                            <p className="text-xs text-[#8E8E8E] w-[82%] mb-12 text-center mx-auto">{service.description}</p>
                                         </div>
                                     </div>
                                 )
