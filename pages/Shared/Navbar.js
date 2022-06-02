@@ -22,9 +22,9 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <span className='btn btn-ghost normal-case text-2xl'>
+                <span className='btn btn-ghost normal-case lg:ml-[-32px]'>
                     <Link href='/'>
-                        <Image src={logo} alt='logo' width={98} height={20} />
+                        <Image src={logo} alt='logo' width={122} height={25} />
                     </Link>
                 </span>
             </div>
