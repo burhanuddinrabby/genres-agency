@@ -8,11 +8,11 @@ import support from '../../public/image/support.png'
 const WhyUs = () => {
     return (
         <>
-            <section className='service-section py-24'>
+            <section className='service-section lg:'>
                 <SectionTitle>
                     Why Choose Us
                 </SectionTitle>
-                <div className="mb-3 lg:px-48 px-4 mt-[140px]">
+                <div className="mb-3 lg:px-48 px-4 lg:mt-[140px] mt-[30px]">
                     <div className="flex items-center flex-col-reverse lg:flex-row-reverse justify-between">
                         <div className="lg:max-w-3xl">
                             <Image src={bannerTwo} alt='banner' />
