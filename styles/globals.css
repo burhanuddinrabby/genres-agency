@@ -2,7 +2,7 @@
 @tailwind components;
 
 .section-title {
-  @apply relative z-10;
+  @apply relative;
 }
 
 .section-title h2 {
@@ -11,6 +11,10 @@
 
 .section-title h3 {
   @apply absolute top-[-32px] left-0 right-0 -z-10 mx-auto text-[#EAEAEA] font-[800] leading-none uppercase;
+}
+
+.section-title h1 {
+  @apply absolute top-[-88px] left-[60px] right-0 z-[-1] mx-auto text-[#EAEAEA] font-[800] leading-none uppercase;
 }
 
 @tailwind utilities;

@@ -3,6 +3,8 @@ import Image from 'next/image';
 import location from '../../public/image/location1.png';
 import location2 from '../../public/image/location2.png';
 import clipboard from '../../public/image/clipboard.png';
+import SectionTitle from './SectionTitle';
+import SectionNumber from './SectionNumber';
 const OurWork = () => {
     return (
         <section className="my-5 lg:px-48 px-4">
@@ -19,7 +21,10 @@ const OurWork = () => {
                         <div className="bg-white w-[83px] h-[83px] rounded-full grid justify-center items-center ml-2 mb-5">
                             <Image src={location} width={42} height={42} alt='banner' />
                         </div>
-                        <div className="">
+                        <div className="z-10">
+                            <SectionNumber>
+                                1
+                            </SectionNumber>
                             <h1 className="text-2xl mb-4 text-black font-bold">Find User Problem</h1>
                             <p className="text-xs text-[#8E8E8E] w-[82%]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
                         </div>
@@ -28,7 +33,10 @@ const OurWork = () => {
                         <div className="bg-white w-[83px] h-[83px] rounded-full grid justify-center items-center ml-2 mb-5">
                             <Image src={clipboard} width={42} height={42} alt='banner' />
                         </div>
-                        <div className="">
+                        <div className="z-10">
+                            <SectionNumber>
+                                2
+                            </SectionNumber>
                             <h1 className="text-2xl mb-4 text-black font-bold">Solve The Problem</h1>
                             <p className="text-xs text-[#8E8E8E] w-[82%]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
                         </div>
@@ -37,7 +45,10 @@ const OurWork = () => {
                         <div className="bg-white w-[83px] h-[83px] rounded-full grid justify-center items-center ml-2 mb-5">
                             <Image src={location2} width={42} height={42} alt='banner' />
                         </div>
-                        <div className="">
+                        <div className="z-10">
+                            <SectionNumber>
+                                3
+                            </SectionNumber>
                             <h1 className="text-2xl mb-4 text-black font-bold">Deliver Product</h1>
                             <p className="text-xs text-[#8E8E8E] w-[82%]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
                         </div>
