@@ -18,7 +18,7 @@ const WhyUs = () => {
                             <Image src={bannerTwo} alt='banner' />
                         </div>
                         <div className='text-[#8E8E8E] '>
-                            <h1 className="text-[40px] my-3 text-black font-bold data-text-sm" dataText="Starts Here...">
+                            <h1 className="text-[40px] my-3 text-black font-bold data-text-sm" datatext="Starts Here...">
                                 Specialist in client <br /> satisfaction
                             </h1>
                             <div>
