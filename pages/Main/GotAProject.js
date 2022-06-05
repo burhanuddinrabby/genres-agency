@@ -7,24 +7,24 @@ const GotAProject = () => {
             <SectionTitle>
                 Got a project
             </SectionTitle>
-            <div className=" lg:px-48 px-4 lg:mt-[140px] mt-[30px] mb-56">
+            <div className=" lg:px-48 px-4 lg:mt-[140px] mt-[30px]">
                 <form>
                     <div className="grid lg:grid-cols-2 lg:gap-20 gap-10 text-[#7F7F7F] font-poppins grid-cols-1 px-[10%]">
                         <div className='relative input-container'>
-                            <input type="text" id='name' className='w-full border-b-2 bg-[#F3F5F7] focus:outline-none focus:border-b-primary' />
+                            <input type="text" id='name' className='w-full border-b-2 bg-[#F3F5F7] focus:outline-none focus:border-b-primary' required />
                             <label htmlFor="name" className='lg:left-8 left-1'>Enter Your Name</label>
                         </div>
                         <div className='relative input-container'>
-                            <input type="email" id='email' className='w-full border-b-2 bg-[#F3F5F7] focus:outline-none focus:border-b-primary' />
+                            <input type="name" id='email' className='w-full border-b-2 bg-[#F3F5F7] focus:outline-none focus:border-b-primary' required />
                             <label className='lg:left-8 left-1' htmlFor="email">Your E-mail</label>
                         </div>
                         <div className='relative input-container'>
-                            <input type="text" id='number' className='w-full border-b-2 bg-[#F3F5F7] focus:outline-none focus:border-b-primary' />
+                            <input type="text" id='number' className='w-full border-b-2 bg-[#F3F5F7] focus:outline-none focus:border-b-primary' required />
                             <label className='lg:left-8 left-1' htmlFor="number">Your Phone Number</label>
                         </div>
                         <div className='hidden lg:block'></div>
                         <div className='relative input-container'>
-                            <input type="text" id='project' className='w-full border-b-2 bg-[#F3F5F7] focus:outline-none focus:border-b-primary' />
+                            <input type="text" id='project' className='w-full border-b-2 bg-[#F3F5F7] focus:outline-none focus:border-b-primary' required />
                             <label className='lg:left-8 left-1' htmlFor="project">About Your Project</label>
                         </div>
                     </div>

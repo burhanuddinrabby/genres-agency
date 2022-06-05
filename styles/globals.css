@@ -54,8 +54,9 @@ a {
   transition: all 0.3s ease;
 }
 
-.input-container input:focus~label {
+.input-container input:focus~label,
+.input-container input:valid~label {
   @apply text-[15px];
-  bottom: 30px;
+  transform: translateY(-30px);
   left: 0;
 }
