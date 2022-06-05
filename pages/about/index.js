@@ -6,7 +6,7 @@ const about = () => {
     return (
         <div>
             <Helmet>
-                <title>About</title>
+                <title>About | Genres</title>
             </Helmet>
             <Navbar></Navbar>
             this is about
