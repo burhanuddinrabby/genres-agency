@@ -69,11 +69,11 @@ const Testimonial = () => {
                         </div>
                     </div>
                     {/* <div className='flex lg:flex-row flex-col mx-10'> */}
-                    <div className='grid lg:grid-cols-6 grid-cols-1 mx-10 rounded-r-2xl'>
+                    <div className='grid lg:grid-cols-6 grid-cols-1 mx-10'>
                         <Image src={man} alt='' />
                         <div className='col-span-5'>
-                            <div className='p-12 bg-white'>
-                                <div className="mt-4 mb-10 text-sm text-[#777777] font-[400]">
+                            <div className='p-12 bg-white rounded-r-md rounded-b-md'>
+                                <div className="mt-3 mb-8 text-sm text-[#777777] font-[400]">
                                     <Image src={quote} alt='' />
                                 </div>
                                 <p className='mb-6'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>

@@ -1,5 +1,6 @@
 import Helmet from "react-helmet";
 import BannerComponent from "./Main/Banner";
+import GotAProject from "./Main/GotAProject";
 import OurServices from "./Main/OurServices";
 import OurWork from "./Main/OurWork";
 import Testimonial from "./Main/Testimonial";
@@ -18,6 +19,7 @@ export default function Home() {
       <WhyUs></WhyUs>
       <OurWork></OurWork>
       <Testimonial></Testimonial>
+      <GotAProject></GotAProject>
     </div>
   )
 }
