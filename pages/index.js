@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Helmet>
-        <title>Home</title>
+        <title>HOME | GenRes</title>
       </Helmet>
       <Navbar></Navbar>
       <BannerComponent></BannerComponent>
