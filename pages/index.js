@@ -5,6 +5,7 @@ import OurServices from "./Main/OurServices";
 import OurWork from "./Main/OurWork";
 import Testimonial from "./Main/Testimonial";
 import WhyUs from "./Main/WhyUs";
+import Footer from "./Shared/Footer";
 import Navbar from "./Shared/Navbar";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <OurWork></OurWork>
       <Testimonial></Testimonial>
       <GotAProject></GotAProject>
+      <Footer></Footer>
     </div>
   )
 }

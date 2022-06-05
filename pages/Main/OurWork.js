@@ -3,7 +3,6 @@ import Image from 'next/image';
 import location from '../../public/image/location1.png';
 import location2 from '../../public/image/location2.png';
 import clipboard from '../../public/image/clipboard.png';
-import SectionTitle from './SectionTitle';
 import SectionNumber from './SectionNumber';
 const OurWork = () => {
     return (
