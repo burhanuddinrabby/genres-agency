@@ -37,9 +37,9 @@ const BannerComponent = () => {
                         {
                             success.map((item) => {
                                 return (
-                                    <div className="bg-white lg:p-7 p-5 rounded-md" key={item._id}>
+                                    <div className="bg-white lg:p-7 p-2 rounded-md" key={item._id}>
                                         <div className="text-center">
-                                            <h1 className="text-4xl  text-primary font-bold">{item.status}</h1>
+                                            <h1 className="lg:text-4xl text-2xl text-primary font-bold">{item.status}</h1>
                                             <p className="text-xs font-semibold text-black">{item.about}</p>
                                         </div>
                                     </div>

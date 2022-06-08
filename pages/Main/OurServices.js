@@ -57,7 +57,7 @@ const OurServices = () => {
                 <SectionTitle>
                     Our Services
                 </SectionTitle>
-                <p className='w-96 mx-auto text-[#8e8e8e] lg:mt-16 mt-6 text-center'>
+                <p className='w-80 lg:w-96 mx-auto text-[#8e8e8e] lg:mt-16 mt-6 text-center'>
                     We are developing top level digital srevices with our
                     best expierenced team, just get started with us
                 </p>
