@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import SectionTitle from './SectionTitle';
 import Image from 'next/image';
 import man from '../../public/image/man.jpg'
@@ -10,13 +10,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
+
+
 const Testimonial = () => {
     return (
         <div className='lg:my-36 my-20'>
             <SectionTitle>
                 Testimonial
             </SectionTitle>
-            <p className='w-96 mx-auto text-[#8e8e8e] lg:mt-16 mt-6 text-center'>
+            <p className='w-full mx-auto text-[#8e8e8e] lg:mt-16 mt-6 text-center'>
                 Some of our client satisfaction
             </p>
 
@@ -101,3 +105,74 @@ const Testimonial = () => {
 };
 
 export default Testimonial;
+
+// const testimonials_list =[
+//     {
+//         image:man,
+//         messege:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+//         author:"Mujahid"
+//     },
+//     {
+//         image:man,
+//         messege:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+//         author:"Shajedul Karim"
+//     },
+//     {
+//         image:man,
+//         messege:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+//         author:"Labib"
+//     },
+//     {
+//         image:man,
+//         messege:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+//         author:"Atika"
+//     },
+//     {
+//         image:man,
+//         messege:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+//         author:"Ashraf"
+//     },
+//     {
+//         image:man,
+//         messege:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+//         author:"Jhanker Mahbub"
+//     },
+// ]
+//
+// const Testimonial = () =>{
+//
+//     return (
+//         <div className='lg:my-36 my-20'>
+//             <SectionTitle>
+//                 Testimonial
+//             </SectionTitle>
+//             <p className='w-full mx-auto text-[#8e8e8e] lg:mt-16 mt-6 text-center'>
+//                 Some of our client satisfaction
+//             </p>
+//
+//             <div className="lg:px-48 px-2 lg:mt-24 mt-16">
+//                 <Splide options={ {   type: 'loop', padding:"4rem", drag:true, focus: 'center', } } aria-labe={"Testimonial"}>
+//                     {testimonials_list.map((item, index)=>(
+//                         <SplideSlide id={index}>
+//                             <div className='grid lg:grid-cols-6 grid-cols-1 mx-10'>
+//                                 <Image src={item.image} alt='' />
+//                                 <div className='col-span-5'>
+//                                     <div className='p-12 bg-white rounded-r-md rounded-b-md'>
+//                                         <div className="mt-3 mb-8 text-sm text-[#777777] font-[400]">
+//                                             <Image src={quote} alt='' />
+//                                         </div>
+//                                         <p className='mb-6'>{item.messege}</p>
+//                                         <h2 className='text-xl font-[600]'>
+//                                             {item.author}
+//                                         </h2>
+//                                     </div>
+//                                 </div>
+//                             </div>
+//                         </SplideSlide>
+//                     ))}
+//                 </Splide>
+//             </div>
+//
+//         </div>
+//             )
+//             }

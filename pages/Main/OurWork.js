@@ -8,11 +8,10 @@ const OurWork = () => {
     return (
         <section className="my-5 lg:px-48 px-4">
             <div className='text-[#8E8E8E]'>
-                <h1 className="text-[40px] mt-2 text-black font-bold data-text-sm">Our team try to </h1>
-                <h1 className="text-[40px] text-black font-bold data-text-sm">do their best</h1>
-                <p className="text-sm my-5">It is a long established fact that a reader will be distracted by <br />
+                <h1 className="text-[40px] mt-2 text-black font-bold data-text-sm text-center lg:text-left">Our team try to<br/>do their best</h1>
+                <p className="text-sm my-5 text-center lg:text-left">It is a long established fact that a reader will be distracted by <br />
                     the readable content of a page when looking at its layout</p>
-                <button className='btn rounded-none px-12 bg-gradient-to-r from-primary to-secondary text-[#fff] border-none'>Book now</button>
+                <div className='flex justify-center lg:justify-start'><button className='btn rounded-none px-12 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary text-[#fff] border-none'>Book now</button></div>
             </div>
             <div className='relative lg:first-letter lg:mt-[-45px] z-10'>
                 <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-16 gap-4 font-sans z-10  lg:ml-48">

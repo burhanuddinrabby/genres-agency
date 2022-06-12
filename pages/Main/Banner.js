@@ -20,24 +20,22 @@ const success = [
 ]
 const BannerComponent = () => {
     return (
-        <div className="mb-3 lg:px-48 px-4">
+        <div className="mb-3 lg:px-48 px-4 py-14">
             <div className="flex items-center flex-col lg:flex-row-reverse justify-between">
-                <div className="lg:max-w-3xl">
+                <div className="lg:w-[50%]">
                     <Image src={bannerImg} alt='banner' />
                 </div>
-                <div className='text-[#8E8E8E] '>
-                    <h1 className="text-xs text-primary">A Trusted Agency Service </h1>
-                    <h1 className="text-6xl my-3 text-black font-bold data-text-sm">Let&apos;s Start</h1>
-                    <h1 className="text-6xl my-4 text-black font-bold data-text-sm">Something</h1>
-                    <h1 className="text-6xl my-3 text-black font-bold data-text-sm">Big Together</h1>
-                    <p className="text-sm my-5">We are developing top level digital services with our <br />
+                <div className='text-[#8E8E8E] lg:w-[50%]'>
+                    <h1 className="text-xs text-primary text-center lg:text-left">A Trusted Agency Service </h1>
+                    <h1 className="text-6xl my-3 text-black font-bold data-text-sm leading-tight text-center lg:text-left">Let&apos;s Start <br/> Something<br/>Big Together</h1>                    <h1 className="text-6xl my-3 text-black font-bold data-text-sm"></h1>
+                    <p className="text-sm my-5 text-center lg:text-left">We are developing top level digital services with our <br />
                         best experienced team, just get started with us</p>
-                    <button className='btn rounded-none px-12 bg-gradient-to-r from-primary to-secondary text-[#fff] border-none'>Book now</button>
-                    <div className="grid grid-cols-3 gap-9 mt-9 font-sans">
+                    <div className='flex justify-center lg:justify-start'><button className='btn rounded-none px-12 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary text-[#fff] border-none'>Book now</button></div>
+                    <div className="flex flex-row flex-wrap py-8 justify-center lg:justify-start">
                         {
                             success.map((item) => {
                                 return (
-                                    <div className="bg-white lg:p-7 p-2 rounded-md" key={item._id}>
+                                    <div className="bg-white lg:py-7 py-2 mr-2 mb-2 w-36 rounded-md" key={item._id}>
                                         <div className="text-center">
                                             <h1 className="lg:text-4xl text-2xl text-primary font-bold">{item.status}</h1>
                                             <p className="text-xs font-semibold text-black">{item.about}</p>
