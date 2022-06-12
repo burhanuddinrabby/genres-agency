@@ -8,7 +8,7 @@ import support from '../../public/image/support.png'
 const WhyUs = () => {
     return (
         <>
-            <section className='service-section lg:'>
+            <section className='service-section mb-40'>
                 <SectionTitle>
                     Why Choose Us
                 </SectionTitle>
@@ -18,7 +18,7 @@ const WhyUs = () => {
                             <Image src={bannerTwo} alt='banner' />
                         </div>
                         <div className='text-[#8E8E8E] '>
-                            <h1 className="text-[40px] my-3 text-black font-bold data-text-sm" datatext="Starts Here...">
+                            <h1 className="text-[40px] my-3 text-black font-bold data-text-sm text-center lg:text-left" datatext="Starts Here...">
                                 Specialist in client <br /> satisfaction
                             </h1>
                             <div>

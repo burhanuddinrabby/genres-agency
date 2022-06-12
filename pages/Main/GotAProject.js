@@ -28,7 +28,7 @@ const GotAProject = () => {
                             <label className='lg:left-8 left-1' htmlFor="project">About Your Project</label>
                         </div>
                     </div>
-                    <button className='btn rounded-none px-12 bg-gradient-to-r from-primary to-secondary text-[#fff] border-none w-[196px] mx-auto block lg:mt-24 mt-10'>Send</button>
+                    <div className='flex justify-center lg:justify-start'><button className='btn rounded-none px-12 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary text-[#fff] border-none w-[196px] mx-auto block lg:mt-24 mt-10'>Send</button></div>
                 </form>
             </div>
         </div>
