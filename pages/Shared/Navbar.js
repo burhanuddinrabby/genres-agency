@@ -4,15 +4,16 @@ import React from 'react';
 import logo from '../../public/image/logo.png';
 
 const Navbar = () => {
+    const menuItemStyle = 'text-[#8E8E8E] font-normal hover:bg-transparent hover:text-primary transition-all duration-300'
     const menuItems = <>
-        <li><Link href="/">Home</Link></li>
-        <li><Link href="/service">Service</Link></li>
-        <li><Link href="/booking">Booking</Link></li>
-        <li><Link href="/about">About Us</Link></li>
-        <li><Link href="/contact">Contact</Link></li>
+        <li className={menuItemStyle}><Link href="/">Home</Link></li>
+        <li className={menuItemStyle}><Link href="/service">Service</Link></li>
+        <li className={menuItemStyle}><Link href="/booking">Booking</Link></li>
+        <li className={menuItemStyle}><Link href="/about">About Us</Link></li>
+        <li className={menuItemStyle}><Link href="/contact">Contact</Link></li>
     </>
     return (
-        <div className="navbar text-black lg:min-w-7xl lg:px-52 lg:flex justify-between">
+        <div className="navbar text-black lg:min-w-7xl lg:px-48 lg:flex justify-between">
             <div className="navbar-center w-full flex justify-between">
                 <div className="dropdown md:hidden">
                     <label tabIndex="0" className="btn btn-ghost">
@@ -22,13 +23,13 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <span className='btn btn-ghost normal-case p-0 md:ml-[-32px]'>
+                <span className='cursor-pointer normal-case p-0'>
                     <Link href='/'>
                         <Image src={logo} alt='logo' width={122} height={25} />
                     </Link>
                 </span>
                 <div className="navbar-center hidden md:flex justify-evenly">
-                    <ul className="menu menu-horizontal p-0 font-semibold">
+                    <ul className="p-0 flex flex-row space-x-7">
                         {menuItems}
                     </ul>
                 </div>

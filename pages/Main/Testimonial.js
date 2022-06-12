@@ -77,7 +77,7 @@ const Testimonial = () => {
                         <Image src={man} alt='' />
                         <div className='col-span-5'>
                             <div className='p-12 bg-white rounded-r-md rounded-b-md'>
-                                <div className="mt-3 mb-8 text-sm text-[#777777] font-[400]">
+                                <div className="mt-3 mb-8">
                                     <Image src={quote} alt='' />
                                 </div>
                                 <p className='mb-6'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
