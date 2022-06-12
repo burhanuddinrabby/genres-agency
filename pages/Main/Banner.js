@@ -35,10 +35,10 @@ const BannerComponent = () => {
                         {
                             success.map((item) => {
                                 return (
-                                    <div className="bg-white lg:py-7 py-2 mr-2 mb-2 w-36 rounded-md" key={item._id}>
+                                    <div className="bg-white lg:py-7 py-2 mr-2 mb-2 w-36 rounded-md cursor-pointer" key={item._id}>
                                         <div className="text-center">
                                             <h1 className="lg:text-4xl text-2xl text-primary font-bold">{item.status}</h1>
-                                            <p className="text-xs font-semibold text-black">{item.about}</p>
+                                            <p className="text-xs font-medium text-black">{item.about}</p>
                                         </div>
                                     </div>
                                 )

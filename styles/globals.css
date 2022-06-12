@@ -60,3 +60,21 @@ a {
   transform: translateY(-30px);
   left: 0;
 }
+.bg-card-1{
+  @apply hover:bg-[#9B34EF];
+}
+.bg-card-2{
+  @apply hover:bg-[#00C698]
+}
+.bg-card-3{
+  @apply hover:bg-[#FF712C]
+}
+.bg-card-4{
+  @apply hover:bg-[#D524C5]
+}
+.bg-card-5{
+  @apply hover:bg-[#1AC038]
+}
+.bg-card-6{
+  @apply hover:bg-[#1AC038]
+}
