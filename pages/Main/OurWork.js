@@ -14,9 +14,9 @@ const OurWork = () => {
                 <div className='flex justify-center lg:justify-start'><button className='btn rounded-none px-12 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary text-[#fff] border-none'>Book now</button></div>
             </div>
             <div className='relative lg:first-letter lg:mt-[-45px] z-10'>
-                <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-16 gap-4 font-sans z-10  lg:ml-48">
+                <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-16 gap-4 font-sans z-10  lg:ml-48 text-center lg:text-left">
                     <div className="lg:p-7 p-5 rounded-md lg:mt-[19rem]">
-                        <div className="bg-white w-[83px] h-[83px] rounded-full grid justify-center items-center ml-2 mb-5">
+                        <div className="bg-white w-[83px] h-[83px] rounded-full grid justify-center items-center mx-auto lg:ml-2 mb-5">
                             <Image src={location} width={42} height={42} alt='banner' />
                         </div>
                         <div className="z-10">
@@ -24,11 +24,11 @@ const OurWork = () => {
                                 1
                             </SectionNumber>
                             <h1 className="text-2xl mb-4 text-black font-bold">Find User Problem</h1>
-                            <p className="text-xs text-[#8E8E8E] w-[82%]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                            <p className="text-xs text-[#8E8E8E] lg:w-[82%] w-full">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
                         </div>
                     </div>
                     <div className="lg:p-7 p-5 rounded-md lg:mt-40">
-                        <div className="bg-white w-[83px] h-[83px] rounded-full grid justify-center items-center ml-2 mb-5">
+                        <div className="bg-white w-[83px] h-[83px] rounded-full grid justify-center items-center  mx-auto lg:ml-2 mb-5">
                             <Image src={clipboard} width={42} height={42} alt='banner' />
                         </div>
                         <div className="z-10">
@@ -36,11 +36,11 @@ const OurWork = () => {
                                 2
                             </SectionNumber>
                             <h1 className="text-2xl mb-4 text-black font-bold">Solve The Problem</h1>
-                            <p className="text-xs text-[#8E8E8E] w-[82%]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                            <p className="text-xs text-[#8E8E8E] lg:w-[82%]  w-full">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
                         </div>
                     </div>
                     <div className="lg:p-7 p-5 rounded-md lg:mt-[-4rem] lg:ml-[-5rem] ">
-                        <div className="bg-white w-[83px] h-[83px] rounded-full grid justify-center items-center ml-2 mb-5">
+                        <div className="bg-white w-[83px] h-[83px] rounded-full grid justify-center items-center  mx-auto lg:ml-2 mb-5">
                             <Image src={location2} width={42} height={42} alt='banner' />
                         </div>
                         <div className="z-10">
@@ -48,7 +48,7 @@ const OurWork = () => {
                                 3
                             </SectionNumber>
                             <h1 className="text-2xl mb-4 text-black font-bold">Deliver Product</h1>
-                            <p className="text-xs text-[#8E8E8E] w-[82%]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                            <p className="text-xs text-[#8E8E8E] lg:w-[82%]  w-full">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
                         </div>
                     </div>
                 </div>

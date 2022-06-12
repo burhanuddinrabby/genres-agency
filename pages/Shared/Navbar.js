@@ -28,6 +28,7 @@ const Navbar = () => {
                         <Image src={logo} alt='logo' width={122} height={25} />
                     </Link>
                 </span>
+                <div className='md:hidden mx-6'></div>
                 <div className="navbar-center hidden md:flex justify-evenly">
                     <ul className="p-0 flex flex-row space-x-7">
                         {menuItems}
