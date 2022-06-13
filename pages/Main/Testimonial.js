@@ -4,9 +4,9 @@ import Image from 'next/image';
 import man from '../../public/image/man.jpg'
 import woman from '../../public/image/woman.jpg'
 import quote from '../../public/image/quote.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeftLong, faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
-import { Swiper, SwiperSlide } from "swiper/react";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faArrowLeftLong, faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
+// import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
