@@ -11,7 +11,7 @@
 }
 
 .section-title h3 {
-  @apply absolute lg:top-[-32px] top-[-8px] left-0 right-0 -z-10 mx-auto text-[#EAEAEA] font-[800] leading-none uppercase;
+  @apply absolute lg:top-[-32px] top-[-27%] left-0 right-0 -z-10 mx-auto text-[#EAEAEA] font-[800] leading-none uppercase;
 }
 
 .section-title h1 {
