@@ -150,7 +150,7 @@ const Testimonial = () =>{
             </p>
 
             <div className="lg:px-48 px-2 lg:mt-24 mt-16" data-aos="fade-up">
-                <Splide hasTrack={ false } options={ {   type: 'loop', drag:true, focus: 'center' } } aria-labe={"Testimonial"}>
+                <Splide hasTrack={ false } options={ {   type: 'loop', drag:true, focus: 'center' } } aria-label={"Testimonial"}>
                     <SplideTrack>
                     {testimonials_list.map((item, index)=>(
                         <SplideSlide id={index}>
