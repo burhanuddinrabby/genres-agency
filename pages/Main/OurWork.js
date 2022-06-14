@@ -6,7 +6,7 @@ import clipboard from '../../public/image/clipboard.png';
 import SectionNumber from './SectionNumber';
 const OurWork = () => {
     return (
-        <section className="my-5 lg:px-48 px-4">
+        <section className="my-5 lg:px-48 px-4 overflow-hidden">
             <div className='text-[#8E8E8E]' data-aos="fade-right">
                 <h1 className="text-3xl md:text-[40px] mt-2 text-black font-bold data-text-sm text-center lg:text-left">Our team try to<br/>do their best</h1>
                 <p className="text-sm my-5 text-center lg:text-left">It is a long established fact that a reader will be distracted by <br />
