@@ -153,7 +153,7 @@ const Testimonial = () =>{
                 <Splide hasTrack={ false } options={ {   type: 'loop', drag:true, focus: 'center' } } aria-label={"Testimonial"}>
                     <SplideTrack>
                     {testimonials_list.map((item, index)=>(
-                        <SplideSlide id={index}>
+                        <SplideSlide key={index}>
                             <div className='grid lg:grid-cols-6 grid-cols-1 mx-10'>
                                 <Image src={item.image} alt='' />
                                 <div className='col-span-5'>
