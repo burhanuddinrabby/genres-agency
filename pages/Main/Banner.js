@@ -22,10 +22,10 @@ const BannerComponent = () => {
     return (
         <div className="mb-3 lg:px-48 px-4 py-14">
             <div className="flex items-center flex-col lg:flex-row-reverse justify-between">
-                <div className="lg:w-[50%]">
-                    <Image src={bannerImg} alt='banner' />
+                <div className="lg:w-[50%] ease-in-animation">
+                    <Image src={bannerImg} alt='banner' data-aos="fade-left"  />
                 </div>
-                <div className='text-[#8E8E8E] lg:w-[50%]'>
+                <div className='text-[#8E8E8E] lg:w-[50%]'  data-aos="fade-right" >
                     <h1 className="text-xs text-primary text-center lg:text-left">A Trusted Agency Service </h1>
                     <h1 className="lg:text-6xl  text-4xl  my-3 text-black font-bold data-text-sm leading-tight text-center lg:text-left">Let&apos;s Start <br /> Something<br />Big Together</h1>                    <h1 className="text-6xl my-3 text-black font-bold data-text-sm"></h1>
                     <p className="text-xs my-5 text-center lg:text-left">We are developing top level digital services with our <br />

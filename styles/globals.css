@@ -46,7 +46,6 @@ a {
 
 .input-container {
   position: relative;
-
 }
 
 .input-container label {
@@ -77,4 +76,23 @@ a {
 }
 .bg-card-6{
   @apply hover:bg-[#1AC038]
+}
+
+.ease-in-animation{
+  animation-name: image-ease-in;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes image-ease-in {
+  from {
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(0.9);
+  }
+  to{
+    transform: scale(1);
+  }
+
 }
