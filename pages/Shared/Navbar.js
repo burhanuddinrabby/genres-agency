@@ -4,7 +4,7 @@ import React from 'react';
 import logo from '../../public/image/logo.png';
 
 const Navbar = () => {
-    const menuItemStyle = 'text-[#8E8E8E] font-normal hover:bg-transparent hover:text-primary transition-all duration-300'
+    const menuItemStyle = 'text-[#FFFFFF] md:text-[#8E8E8E] font-normal hover:bg-transparent hover:text-primary transition-all duration-300'
     const menuItems = <>
         <li className={menuItemStyle}><Link href="/">Home</Link></li>
         <li className={menuItemStyle}><Link href="/service">Service</Link></li>
@@ -19,7 +19,7 @@ const Navbar = () => {
                     <label tabIndex="0" className="btn btn-ghost">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
-                    <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-gradient-to-r from-primary to-secondary text-[#fff] rounded-box w-52">
+                    <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-gradient-to-r from-primary to-secondary text-[#fff] rounded-box w-[90vw]">
                         {menuItems}
                     </ul>
                 </div>

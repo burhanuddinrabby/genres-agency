@@ -63,7 +63,7 @@ const OurServices = () => {
                 <SectionTitle>
                     Our Services
                 </SectionTitle>
-                <p className='w-80 lg:w-96 mx-auto text-[#8e8e8e] lg:mt-16 mt-6 text-center'>
+                <p className='w-80 lg:w-96 mx-auto text-[#8e8e8e] lg:mt-16 mt-6 text-center' data-aos="fade-up">
                     We are developing top level digital srevices with our
                     best expierenced team, just get started with us
                 </p>
@@ -72,7 +72,7 @@ const OurServices = () => {
                         {
                             services.map((service) => {
                                 return (
-                                    <div className={`bg-white lg:p-7 p-5 rounded-md group hover:-translate-y-4 transition-all duration-300 ${service.hoverClass} cursor-pointer`} key={service._id}>
+                                    <div className={`bg-white lg:p-7 p-5 rounded-md group hover:-translate-y-4 transition-all duration-300 ${service.hoverClass} cursor-pointer`} key={service._id} data-aos="zoom-in">
                                         <div className="grid justify-center mt-12 mb-5">
                                             <Image src={service.image} width={50} height={50} alt='banner' />
                                         </div>

@@ -145,11 +145,11 @@ const Testimonial = () =>{
             <SectionTitle>
                 Testimonial
             </SectionTitle>
-            <p className='w-full mx-auto text-[#8e8e8e] lg:mt-16 mt-6 text-center'>
+            <p className='w-full mx-auto text-[#8e8e8e] lg:mt-16 mt-6 text-center' data-aos="fade-up">
                 Some of our client satisfaction
             </p>
 
-            <div className="lg:px-48 px-2 lg:mt-24 mt-16">
+            <div className="lg:px-48 px-2 lg:mt-24 mt-16" data-aos="fade-up">
                 <Splide hasTrack={ false } options={ {   type: 'loop', drag:true, focus: 'center' } } aria-labe={"Testimonial"}>
                     <SplideTrack>
                     {testimonials_list.map((item, index)=>(

@@ -5,7 +5,7 @@ import { faInstagramSquare, faFacebook, faLinkedin } from '@fortawesome/free-bra
 
 const Footer = () => {
     return (
-        <div className=" lg:px-48 px-4 lg:mt-[120px] mt-[30px]">
+        <div className=" lg:px-48 px-4 lg:mt-[120px] mt-[30px]" data-aos="fade-up">
             <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-16 gap-4 font-poppins z-10 mx-auto lg:px-60">
                 <div className="lg:p-7 p-5 rounded-md">
                     <div className="bg-white w-[57px] h-[57px] text-2xl rounded-lg text-primary grid justify-center items-center mx-auto lg:ml-2 mb-5">
