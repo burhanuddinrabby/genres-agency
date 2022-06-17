@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import SectionTitle from './SectionTitle';
 import Image from 'next/image';
 import man from '../../public/image/man.jpg'
@@ -10,7 +10,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
-import {Splide, SplideSlide, SplideTrack} from '@splidejs/react-splide';
+import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 
 //
@@ -105,20 +105,20 @@ import '@splidejs/react-splide/css';
 // };
 
 
-const testimonials_list =[
+const testimonials_list = [
     {
-        image:man,
-        messege:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
-        author:"Mujahid"
+        image: man,
+        messege: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+        author: "Mujahid"
     },
     {
-        image:man,
-        messege:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
-        author:"Shajedul Karim"
+        image: man,
+        messege: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+        author: "Shajedul Karim"
     }
 ]
 
-const Testimonial = () =>{
+const Testimonial = () => {
 
     return (
         <div className='lg:my-36 my-20'>
@@ -126,11 +126,24 @@ const Testimonial = () =>{
                 Testimonial
             </SectionTitle>
             <p className='w-full mx-auto text-[#8e8e8e] lg:mt-16 mt-6 text-center' data-aos="fade-up">
-                Our clients are not satisfied.
+                {/* Our clients are not satisfied. */}
+                Clients we&apos;ve worked with
             </p>
 
-            <div className="lg:px-48 px-2 lg:mt-24 mt-16" data-aos="fade-up">
-                <Splide hasTrack={ false } options={ {   type: 'loop', drag:true, focus: 'center' } } aria-label={"Testimonial"}>
+            <div className="lg:px-48 px-2 lg:mt-24 mt-10" data-aos="fade-up">
+                <div className='text-center'>
+                    <em className='text-2xl'>
+                        We still have <b className='text-primary'>zero</b> client. <br />
+                        This means we are available for <b className="text-primary"> you immediately</b>.
+                        <br />
+                        We are a <b className="text-primary">brand new</b> Agency, but each team member is skilled in their fields. <br />
+                        Looking forward to work with you. 
+                    </em>
+                </div>
+
+                {/* [keep this simple but emphasized [bold or increased font], no need to use box/borders] */}
+
+                {/* <Splide hasTrack={ false } options={ {   type: 'loop', drag:true, focus: 'center' } } aria-label={"Testimonial"}>
                     <SplideTrack>
                     {testimonials_list.map((item, index)=>(
                         <SplideSlide key={index}>
@@ -151,16 +164,17 @@ const Testimonial = () =>{
                         </SplideSlide>
                     ))}
                     </SplideTrack>
-                    {/*<div className="splide__arrows">*/}
-                    {/*    <button className="splide__arrow splide__arrow--prev"><FontAwesomeIcon icon="fas fa-chevron-left" /></button>*/}
-                    {/*    <button className="splide__arrow splide__arrow--next">Next</button>*/}
-                    {/*</div>*/}
-                </Splide>
+                    //ekane nicher ta hbe
+                </Splide> */}
+                {/* <div className="splide__arrows">
+                       <button className="splide__arrow splide__arrow--prev"><FontAwesomeIcon icon="fas fa-chevron-left" /></button>
+                       <button className="splide__arrow splide__arrow--next">Next</button>
+                    </div> */}
             </div>
 
         </div>
-            )
-            }
+    )
+}
 
 
 export default Testimonial;

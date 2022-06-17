@@ -35,23 +35,23 @@ const Footer = () => {
                 <div className="grid lg:grid-cols-3 gap-4 grid-cols-1 w-[60%] mx-auto pt-12">
                     <div className='flex items-center mx-auto lg:mx-0'>
                         <FontAwesomeIcon icon={faFacebook} className='text-primary text-2xl' />
-                        <a href='https://m.facebook.com/103550769066155/' className='ml-2 underline text-[#8e8e8e]'>Facebook</a>
+                        <a target='_blank' href='https://www.facebook.com/genres.agency' className='ml-2 underline text-[#8e8e8e]' rel="noreferrer">Facebook</a>
                     </div>
                     <div className='flex items-center mx-auto lg:mx-0'>
                         <FontAwesomeIcon icon={faInstagramSquare} className='text-primary text-2xl' />
-                        <a href='https://instagram.com/genres.agency' className='ml-2 underline text-[#8e8e8e]'>Instagram</a>
+                        <a target='_blank' href='https://instagram.com/genres.agency' className='ml-2 underline text-[#8e8e8e]' rel="noreferrer">Instagram</a>
                     </div>
                     <div className='flex items-center mx-auto lg:mx-0'>
                         <FontAwesomeIcon icon={faLinkedin} className='text-primary text-2xl' />
-                        <a href='https://www.linkedin.com/in/genres-agnecy-4603a7242' className='ml-2 underline text-[#8e8e8e]'>Linkedin</a>
+                        <a target='_blank' href='https://www.linkedin.com/in/genres-agnecy-4603a7242' className='ml-2 underline text-[#8e8e8e]' rel="noreferrer">Linkedin</a>
                     </div>
                     <div className='flex items-center mx-auto lg:mx-0'>
                         <FontAwesomeIcon icon={faTwitter} className='text-primary text-2xl' />
-                        <a href='https://twitter.com/GenResAgency?t=m_nD23aAyjuZsX6woHtiOg&s=09' className='ml-2 underline text-[#8e8e8e]'>Twitter</a>
+                        <a target='_blank' href='https://twitter.com/GenResAgency?t=m_nD23aAyjuZsX6woHtiOg&s=09' className='ml-2 underline text-[#8e8e8e]' rel="noreferrer">Twitter</a>
                     </div>
                     <div className='flex items-center mx-auto lg:mx-0'>
                         <FontAwesomeIcon icon={faPinterest} className='text-primary text-2xl' />
-                        <a href='https://pin.it/3zramFY' className='ml-2 underline text-[#8e8e8e]'>Pinterest</a>
+                        <a target='_blank' href='https://pin.it/3zramFY' className='ml-2 underline text-[#8e8e8e]' rel="noreferrer">Pinterest</a>
                     </div>
                 </div>
             </div>
