@@ -1,5 +1,5 @@
-import Helmet from "react-helmet";
-import BannerComponent from "./Main/Banner";
+import Head from "next/head";
+import Banner from "./Main/Banner";
 import GotAProject from "./Main/GotAProject";
 import OurServices from "./Main/OurServices";
 import OurWork from "./Main/OurWork";
@@ -11,11 +11,11 @@ import Navbar from "./Shared/Navbar";
 export default function Home() {
   return (
     <div>
-      <Helmet>
+      <Head>
         <title>HOME | GenRes</title>
-      </Helmet>
+      </Head>
       <Navbar></Navbar>
-      <BannerComponent></BannerComponent>
+      <Banner></Banner>
       <OurServices></OurServices>
       <WhyUs></WhyUs>
       <OurWork></OurWork>

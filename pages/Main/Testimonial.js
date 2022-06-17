@@ -115,27 +115,7 @@ const testimonials_list =[
         image:man,
         messege:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
         author:"Shajedul Karim"
-    },
-    {
-        image:man,
-        messege:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
-        author:"Labib"
-    },
-    {
-        image:man,
-        messege:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
-        author:"Atika"
-    },
-    {
-        image:man,
-        messege:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
-        author:"Ashraf"
-    },
-    {
-        image:man,
-        messege:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
-        author:"Jhanker Mahbub"
-    },
+    }
 ]
 
 const Testimonial = () =>{
@@ -146,7 +126,7 @@ const Testimonial = () =>{
                 Testimonial
             </SectionTitle>
             <p className='w-full mx-auto text-[#8e8e8e] lg:mt-16 mt-6 text-center' data-aos="fade-up">
-                Some of our client satisfaction
+                Our clients are not satisfied.
             </p>
 
             <div className="lg:px-48 px-2 lg:mt-24 mt-16" data-aos="fade-up">

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faInstagramSquare, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faInstagramSquare, faFacebook, faLinkedin, faTwitter, faPinterest } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
@@ -35,20 +35,28 @@ const Footer = () => {
                 <div className="grid lg:grid-cols-3 gap-4 grid-cols-1 w-[60%] mx-auto pt-12">
                     <div className='flex items-center mx-auto lg:mx-0'>
                         <FontAwesomeIcon icon={faFacebook} className='text-primary text-2xl' />
-                        <p className='ml-2 underline text-[#8e8e8e]'>Facebook</p>
+                        <a href='https://m.facebook.com/103550769066155/' className='ml-2 underline text-[#8e8e8e]'>Facebook</a>
                     </div>
                     <div className='flex items-center mx-auto lg:mx-0'>
                         <FontAwesomeIcon icon={faInstagramSquare} className='text-primary text-2xl' />
-                        <p className='ml-2 underline text-[#8e8e8e]'>Instagram</p>
+                        <a href='https://instagram.com/genres.agency' className='ml-2 underline text-[#8e8e8e]'>Instagram</a>
                     </div>
                     <div className='flex items-center mx-auto lg:mx-0'>
                         <FontAwesomeIcon icon={faLinkedin} className='text-primary text-2xl' />
-                        <p className='ml-2 underline text-[#8e8e8e]'>Linkedin</p>
+                        <a href='https://www.linkedin.com/in/genres-agnecy-4603a7242' className='ml-2 underline text-[#8e8e8e]'>Linkedin</a>
+                    </div>
+                    <div className='flex items-center mx-auto lg:mx-0'>
+                        <FontAwesomeIcon icon={faTwitter} className='text-primary text-2xl' />
+                        <a href='https://twitter.com/GenResAgency?t=m_nD23aAyjuZsX6woHtiOg&s=09' className='ml-2 underline text-[#8e8e8e]'>Twitter</a>
+                    </div>
+                    <div className='flex items-center mx-auto lg:mx-0'>
+                        <FontAwesomeIcon icon={faPinterest} className='text-primary text-2xl' />
+                        <a href='https://pin.it/3zramFY' className='ml-2 underline text-[#8e8e8e]'>Pinterest</a>
                     </div>
                 </div>
             </div>
             <p className='text-center text-[#8e8e8e] py-20'>
-                © All Right Researved 2022
+                © GenRes Agency | All Rights Reserved 2022 
             </p>
         </div>
     );
