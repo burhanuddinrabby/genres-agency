@@ -14,7 +14,7 @@ const about = () => {
             <Navbar></Navbar>
             <div className="mb-3 lg:px-48 px-4 py-14">
                 <AboutTeam></AboutTeam>
-                <OurTeam></OurTeam>
+                {/* <OurTeam></OurTeam> */}
             </div>
             <Footer></Footer>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import web from '../../public/image/www.png'
 import discord from '../../public/image/discord.png'
+import content from '../../public/image/content.png'
 import phone from '../../public/image/phone.png'
 import scale from '../../public/image/uiux.png'
 import gif from '../../public/image/gif.png'
@@ -15,7 +16,7 @@ const services = [
         _id: 1,
         name: "Web Development",
         image: web,
-        title: "Get front-end or back-end or both",
+        title: "Get frontend or backend or both",
         description: <>
             <li> SEO - friendly website with Next.js</li>
             <li>Dynamic website with React</li>
@@ -76,7 +77,7 @@ const services = [
     {
         _id: 6,
         name: "Content Writing ",
-       image: discord,
+        image: content,
        description: <>
        <li>Viral content (hopefully)</li>
        <li>SEO-refined blogs</li>
@@ -108,12 +109,12 @@ const OurServices = () => {
                                         </div>
                                         <div className="text-center">
                                             <h1 className="text-2xl mb-4 text-black font-bold group-hover:text-white">{service.name}</h1>
-                                            <p className="text-sm text-[#8E8E8E] mb-4 group-hover:text-white text-left mx-auto">
+                                            <p className="text-sm text-[#8E8E8E] mb-4 group-hover:text-white mx-auto">
                                                 {service?.title}
                                             </p>
-                                            <p className="text-left list-disc ml-4 text-xs text-[#8E8E8E] w-[82%] mb-12 group-hover:text-white  mx-auto">
+                                            <ul className="text-left list-disc w-[60%] block  mx-auto  text-xs text-[#8E8E8E] mb-12 group-hover:text-white">
                                                 {service.description}
-                                            </p>
+                                            </ul>
                                         </div>
                                     </div>
                                 )
