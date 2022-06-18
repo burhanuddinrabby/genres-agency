@@ -7,12 +7,17 @@ import Testimonial from "./Main/Testimonial";
 import WhyUs from "./Main/WhyUs";
 import Footer from "./Shared/Footer";
 import Navbar from "./Shared/Navbar";
+import preview from "../public/image/preview.png"
 
 export default function Home() {
   return (
     <div>
       <Head>
         <title>HOME | GenRes</title>
+        <meta property="og:title" content="genres"/>
+        <meta property="og:description" content="we quickly generate your crucial results"/>
+        <meta property="og:image" content={preview}/>
+        <meta property="twitter:card" content="summary_large_image"/>
       </Head>
       <Navbar></Navbar>
       <Banner></Banner>
