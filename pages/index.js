@@ -16,7 +16,7 @@ export default function Home() {
         <title>HOME | GenRes</title>
         <meta property="og:title" content="genres"/>
         <meta property="og:description" content="we quickly generate your crucial results"/>
-        <meta property="og:image" content={preview}/>
+        <meta property="og:image" content="https://i.ibb.co/FWSpk8G/preview.png"/>
         <meta property="twitter:card" content="summary_large_image"/>
       </Head>
       <Navbar></Navbar>
