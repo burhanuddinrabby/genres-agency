@@ -13,12 +13,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <meta property="og:title" content="GenRes" />
+        {/* <meta property="og:title" content="GenRes" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:url" content="https://genres-agency.vercel.app/" />
         <meta data-n-head="ssr" data-hid="og:image" name="og:image" content="https://i.ibb.co/FWSpk8G/preview.png" />
         <meta data-n-head="ssr" data-hid="og:locale" name="og:locale" content="en_US" />
-        <meta property="og:description" content="We quickly generate your crucial results" />
+        <meta property="og:description" content="We quickly generate your crucial results" /> */}
 
         {/* <!-- Primary Meta Tags --> */}
         <title>Home | GenRes</title>
