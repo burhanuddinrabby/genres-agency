@@ -137,7 +137,7 @@ const Testimonial = () => {
                         This means we are available for <b className="text-primary"> you immediately</b>.
                         <br />
                         We are a <b className="text-primary">brand new</b> Agency, but each team member is skilled in their fields. <br />
-                        Looking forward to work with you. 
+                        Looking forward to <b className="text-primary">work with you.</b> 
                     </em>
                 </div>
 

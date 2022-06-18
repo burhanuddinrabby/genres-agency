@@ -58,7 +58,7 @@ const BannerComponent = () => {
                   <div className="text-center">
                     {/* <h1 className="lg:text-4xl text-2xl text-primary font-bold">{item.status}</h1> */}
                     <p className="md:text-xs text-[10px] text-primary">
-                      {item.status} {item.about}
+                      {item.about}
                     </p>
                   </div>
                 </div>
