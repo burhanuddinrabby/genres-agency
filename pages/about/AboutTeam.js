@@ -33,9 +33,9 @@ const AboutTeam = () => {
 
                 And you may or may not have resources or talents.<br />
 
-                But you want agency (quick actions). Only actions generate results, you know it.
-                So it&apos;s tempting to try to find the best of talents spending long delays and big-bucks―especially the money we get for free (perceptually-free: you still have to return profits to investors) or time that we take for granted.
-                Also it&apos;s a little challenging to find talents who are willing to work in a brand new startup.
+                But you want agency (quick actions). Only actions generate results, you know it. <br />
+                So it&apos;s tempting to try to find the best of talents spending long delays and big-bucks―especially the money we get for free (perceptually-free: you still have to return profits to investors) or time that we take for granted. <br />
+                Also it&apos;s a little challenging to find talents who are willing to work in a brand new startup. <br />
                 And a Digital Agency can help you here. Agency is a business that accumulates talents, skills, insider-knowledge and makes it cost-effective for others to use.
                 We tried to be a startup first, we lingered for a year and two months, couldn&apos;t survive, so quit for some time.
                 This means we understand your pains. So we can help you best.
