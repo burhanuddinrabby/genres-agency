@@ -1,7 +1,9 @@
 import Head from "next/head";
+import Image from "next/image";
 import React from "react";
 import Footer from "../Shared/Footer";
 import Navbar from "../Shared/Navbar";
+import contactImg from "../../public/image/contact.png";
 
 const contact = () => {
   return (
@@ -10,7 +12,7 @@ const contact = () => {
         <title>Contact | Genres</title>
       </Head>
       <Navbar></Navbar>
-      <div className="mb-3 lg:px-48 px-4 py-14">this is contact</div>
+      <Image src={contactImg} alt="Contact Us" />
       <Footer></Footer>
     </div>
   );
