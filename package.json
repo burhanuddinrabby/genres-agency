@@ -22,6 +22,7 @@
     "next-images": "^1.8.4",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-lazy-load-image-component": "^1.5.4",
     "react-slideshow-image": "^3.7.5",
     "swiper": "^8.2.2"
   },
