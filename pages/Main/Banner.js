@@ -5,27 +5,27 @@ const success = [
   {
     _id: 1,
     status: "7K+",
-    about: "Years Of Excellent",
-    // about: "We are young"
+    // about: "Years Of Excellent",
+    about: "We are young",
   },
   {
     _id: 2,
     status: "1K+",
-    about: "Project Solved",
-    // about: "You are too"
+    // about: "Project Solved",
+    about: "You are too",
   },
   {
     _id: 3,
     status: "100%",
-    about: "Client Satisfaction",
-    // about: "How are you!?"
+    // about: "Client Satisfaction",
+    about: "How are you!?",
   },
 ];
 const BannerComponent = () => {
   return (
     <div className="mb-3 lg:px-48 px-4 py-14">
       <div className="flex items-center flex-col lg:flex-row-reverse justify-between">
-        <div className="lg:w-[50%] ease-in-animation">
+        <div className="lg:w-[50%]">
           <Image src={bannerImg} alt="banner" data-aos="fade-left" />
         </div>
         <div className="text-[#8E8E8E] lg:w-[50%]" data-aos="fade-right">
@@ -58,7 +58,7 @@ const BannerComponent = () => {
                   <div className="text-center">
                     {/* <h1 className="lg:text-4xl text-2xl text-primary font-bold">{item.status}</h1> */}
                     <p className="md:text-xs text-[10px] text-primary">
-                      {item.status} {item.about}
+                      {item.about}
                     </p>
                   </div>
                 </div>
