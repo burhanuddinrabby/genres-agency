@@ -5,8 +5,36 @@ import Footer from "../Shared/Footer";
 import Navbar from "../Shared/Navbar";
 import contactImg from "../../public/image/contact.png";
 import SectionTitle from "../Main/SectionTitle";
+import { toast, ToastContainer } from 'react-nextjs-toast';
 
 const contact = () => {
+  const submitMessage = (e) => {
+    e.preventDefault();
+    const name = e.target.name.value;
+    const email = e.target.email.value;
+    const message = e.target.message.value;
+    const data = {name, email, message};
+    console.log(data);
+    fetch("http://localhost:5000/message", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.acknowledged) {
+          console.log("Message sent");
+          toast.notify(`Hello ${name}, We received your message, we will reach you asap`, {
+            duration: 5,
+            type: "success",
+            title: "Message sent Success"
+          })
+        }
+      })
+    // e.target.reset();
+  }
   return (
     <div>
       <Head>
@@ -24,7 +52,7 @@ const contact = () => {
             <h1 className="mb-20 font-poppins font-semibold text-2xl lg:text-4xl ">
               We would love to help. <br /> Send us a message
             </h1>
-            <form data-aos="fade-up">
+            <form data-aos="fade-up" onSubmit={submitMessage}>
               <div className="flex flex-wrap flex-col  lg:justify-between text-[#7F7F7F] font-poppins grid-cols-1">
                 <div className="relative input-container  mb-12">
                   <input
@@ -63,7 +91,7 @@ const contact = () => {
                 </div>
               </div>
               <div className="">
-                <button className="btn rounded-none  bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary text-[#fff] border-none w-[196px] mx-auto block lg:mt-18 mt-6">
+                <button type="submit" className="btn rounded-none  bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary text-[#fff] border-none w-[196px] mx-auto block lg:mt-18 mt-6">
                   Send
                 </button>
               </div>
@@ -75,6 +103,7 @@ const contact = () => {
         </div>
       </div>
       <Footer></Footer>
+        <ToastContainer align={"center"}/>
     </div>
   );
 };
