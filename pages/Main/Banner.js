@@ -25,11 +25,7 @@ const BannerComponent = () => {
   return (
     <div className="mb-3 lg:px-48 px-4 py-14">
       <div className="flex items-center flex-col lg:flex-row-reverse justify-between">
-<<<<<<< HEAD
-        <div className="lg:w-[40%] ">
-=======
         <div className="lg:w-[50%]">
->>>>>>> saidur
           <Image src={bannerImg} alt="banner" data-aos="fade-left" />
         </div>
         <div className="text-[#8E8E8E] lg:w-[50%]" data-aos="fade-right">
