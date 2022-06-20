@@ -7,6 +7,9 @@ import contactImg from "../../public/image/contact.png";
 import SectionTitle from "../Main/SectionTitle";
 
 const contact = () => {
+  const formSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <div>
       <Head>
@@ -24,7 +27,7 @@ const contact = () => {
             <h1 className="mb-20 font-poppins font-semibold text-2xl lg:text-4xl ">
               We would love to help. <br /> Send us a message
             </h1>
-            <form data-aos="fade-up">
+            <form data-aos="fade-up" onSubmit={formSubmit}>
               <div className="flex flex-wrap flex-col  lg:justify-between text-[#7F7F7F] font-poppins grid-cols-1">
                 <div className="relative input-container  mb-12">
                   <input
