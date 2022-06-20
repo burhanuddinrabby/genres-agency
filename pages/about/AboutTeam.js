@@ -25,11 +25,11 @@ const AboutTeam = () => {
 
           So the traveler could no longer control: <span className='font-semibold'>&quot;Is this an Indian custom?&quot;</span><br /><br />
 
-          - <span className='font-semibold'>&quot;Which one?&quot;</span><br /><br />
+          <span className='font-semibold'>&quot;Which one?&quot;</span><br /><br />
 
-          : <span className='font-semibold'>&quot;To light up another lamp when a guest visits!?&quot;</span><br /><br />
+          <span className='font-semibold'>&quot;To light up another lamp when a guest visits!?&quot;</span><br /><br />
 
-          - <span className='font-semibold'>&quot;No, my dear friend. There is no such custom. I was doing my nation&apos;s official work when you entered and the lamp&apos;s oil was from National treasure&apos;s money. <br /><br />
+          <span className='font-semibold'>&quot;No, my dear friend. There is no such custom. I was doing my nation&apos;s official work when you entered and the lamp&apos;s oil was from National treasure&apos;s money. <br /><br />
             Now I&apos;m talking with you, it&apos;s a personal and friendly conversation, so I&apos;m using oil purchased from personal money.&quot;</span><br /><br />
         </blockquote>
 
@@ -58,13 +58,12 @@ const AboutTeam = () => {
           - Management/Consultancy <br />
         </p><br /><br />
 
-        All 5 you get here in GenRes Agency, except the app development, for now. <br />
+        All 5 you get here in GenRes Agency, except the app development, for now. It&apos;s not costly.<br />
 
-        <p className="text-primary">
-          - It&apos;s not costly. <br />
-          - It is also fast. <br />
-          - It is reliable. <br />
-        </p><br />
+       
+        It is also fast. <br /><br />
+        It is reliable. <br /><br />
+        
 
         But you should not trust my words. <br /><br />
 

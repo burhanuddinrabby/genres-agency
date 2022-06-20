@@ -7,7 +7,7 @@ const GotAProject = () => {
             <SectionTitle>
                 Got a project
             </SectionTitle>
-            <div className=" lg:px-48 px-4 lg:mt-[140px] mt-[30px]">
+            <div className="lg:px-48 px-4 lg:mt-[140px] mt-[30px]">
                 <form data-aos="fade-up">
                     <div className="flex flex-wrap flex-col lg:flex-row lg:justify-between text-[#7F7F7F] font-poppins grid-cols-1 px-[10%]">
                         <div className='relative input-container lg:w-[47%] mb-12'>
@@ -18,7 +18,7 @@ const GotAProject = () => {
                             <input type="name" id='email' className='w-full border-b-2 bg-[#F3F5F7] focus:outline-none focus:border-b-primary' required />
                             <label className='lg:left-8 left-1' htmlFor="email">Your E-mail</label>
                         </div>
-                        <div className='relative input-container lg:w-full mb-12'>
+                        <div className='relative input-container lg:w-[47%] mb-12'>
                             <input type="text" id='number' className='w-full border-b-2 bg-[#F3F5F7] focus:outline-none focus:border-b-primary' required />
                             <label className='lg:left-8 left-1' htmlFor="number">Your Phone Number</label>
                         </div>

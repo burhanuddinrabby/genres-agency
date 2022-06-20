@@ -26,14 +26,19 @@ const services = [
     ),
     hoverClass: "bg-card-1",
   },
-  {
-    _id: 2,
-    name: "App Development",
-    image: phone,
-    description:
-      "We design your desired website according to your need. We use HTML, CSS, JavaScript, PHP, Shopify. ReactJS.",
-    hoverClass: "bg-card-2",
-  },
+  // {
+  //   _id: 2,
+  //   // name: "",
+  //   // image: '',
+  //   // description:
+  //   //   "",
+  //   // hoverClass: "bg-card-2",
+  //   // name: "App Development",
+  //   // image: phone,
+  //   // description:
+  //   //   "We design your desired website according to your need. We use HTML, CSS, JavaScript, PHP, Shopify. ReactJS.",
+  //   // hoverClass: "bg-card-2",
+  // },
   {
     _id: 3,
     name: "UI/UX Design",
